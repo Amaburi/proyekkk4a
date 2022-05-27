@@ -94,4 +94,9 @@ class MovieController extends Controller
         $movie = movie::where('name','LIKE','%'.$search_text.'%')->get();
         return view('product',compact('movie'));
     }
+    public function list(){
+        $listt = $_GET['list'];
+        $liist = movie::where('page','LIKE','%'.$listt.'$');
+        return view('list',compact('liist'));
+    }
 }

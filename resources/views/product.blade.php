@@ -21,7 +21,7 @@
                 <a class="nav-link" href="movierank">Movie Ranking</a>
               </li>
         </ul>
-        <form action="product.search" method="post">
+        <form action="#" method="POST">
           {{csrf_field()}}
           <div class="search">
             <input type="text"  name="cari" id="cari"  placeholder="Search">
@@ -45,7 +45,9 @@
                         <i class="fa fa-star"></i>
                     </div>
                 </div>
-                <a href="#"><i class="fa fa-plus circle" aria-hidden="true"></i></a>
+                <form action="#" method="POST">
+                  <a href="{{$movie->page}}"><i class="fa fa-plus circle" aria-hidden="true" id="list" name="list"></i></a>
+                </form>
              </div>
             @endforeach
          </div>

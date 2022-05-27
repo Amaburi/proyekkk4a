@@ -86,13 +86,18 @@ Route::get('addrank', function(){
 Route::get('kknpage', function(){
     return view('kknpage');
 });
+Route::get('loreipsum', function(){
+    return view('loreipsum');
+});
 Route::get('/product','MovieController@search');
+	
+Route::get('/product', 'App\Http\Controllers\MovieController@search');
 
 Route::resource('/recsection',RecommendController::class);
 Route::resource('/johnwick3page',JohnController::class);
 Route::resource('/addmovie',MovieController::class);
 Route::resource('/product',MovieController::class);
-Route::resource('/search',MovieController::class);
+Route::resource('/list',MovieController::class);
 Route::resource('/latest',latestcontroller::class);
 Route::resource('/addlatest',latestcontroller::class);
 Route::resource('/addrank',rankcontroller::class);
