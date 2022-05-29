@@ -89,9 +89,20 @@ Route::get('kknpage', function(){
 Route::get('loreipsum', function(){
     return view('loreipsum');
 });
-Route::get('/product','MovieController@search');
-	
-Route::get('/product', 'App\Http\Controllers\MovieController@search');
+Route::get('strangepage', function(){
+    return view('strangepage');
+});
+Route::get('oncepage', function(){
+    return view('oncepage');
+});
+Route::get('pachinkopage', function(){
+    return view('pachinkopage');
+});
+Route::get('junvilepage', function(){
+    return view('junvilepage');
+});
+Route::get('/product', [MovieController::class, 'search'])->name('product.search');
+
 
 Route::resource('/recsection',RecommendController::class);
 Route::resource('/johnwick3page',JohnController::class);

@@ -1,19 +1,9 @@
-const btn = document.querySelector(".switch-btn");
-const video = document.querySelector(".video-container");
-
-btn.addEventListener("click", function () {
-  if (!btn.classList.contains("slide")) {
-    btn.classList.add("slide");
-    video.pause();
-  } else {
-    btn.classList.remove("slide");
-    video.play();
+document.querySelectorAll('.video-container img').forEach(img =>{
+  img.onclick = () =>{
+    document.querySelector('.popup-video').style.display = 'block';
+    document.querySelector('.popup-video video').src = img.getAttribute('src');
   }
-});
-
-// preloader
-const preloader = document.querySelector(".preloader");
-
-window.addEventListener("load", function () {
-  preloader.classList.add("hide-preloader");
-});
+} );
+document.querySelector('.popup-video span').onclick = () => {
+  document.querySelector('.popup-video').style.display = 'none';
+}

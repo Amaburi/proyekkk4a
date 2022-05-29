@@ -21,7 +21,7 @@
                 <a class="nav-link" href="movierank">Movie Ranking</a>
               </li>
         </ul>
-        <form action="#" method="POST">
+        <form action="" method="GET">
           {{csrf_field()}}
           <div class="search">
             <input type="text"  name="cari" id="cari"  placeholder="Search">
