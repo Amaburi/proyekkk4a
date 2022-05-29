@@ -19,9 +19,9 @@
     </form>
     </header>
     <div class="banner">
-        <img src="{{asset('images/strangee.jpg')}}">
+        <img src="{{asset('images/doctor.jpg')}}">
         <div class="content">
-            <img src="{{asset('images/strangename.png')}}" class="movietitle">
+            <img src="{{asset('images/doctorname.png')}}" class="movietitle">
             <h4>
                 <span>2022</span>
                 <span><i>13+</i></span>
@@ -37,7 +37,7 @@
         <a class="play" onclick="toggleVideo();"><img src="{{asset('images/play.png')}}">Watch Trailer</a>
     </div>
     <div class="trailer">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/aWzlQ2N6qqg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/h7gvFravm4A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <img src="{{asset('images/close.png')}}" class="close" onclick="toggleVideo();">
     </div>
 

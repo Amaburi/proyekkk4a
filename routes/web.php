@@ -101,6 +101,18 @@ Route::get('pachinkopage', function(){
 Route::get('junvilepage', function(){
     return view('junvilepage');
 });
+Route::get('hillpage', function(){
+    return view('hillpage');
+});
+Route::get('unchartedpage', function(){
+    return view('unchartedpage');
+});
+Route::get('heropage', function(){
+    return view('heropage');
+});
+Route::get('doctorpage', function(){
+    return view('doctorpage');
+});
 Route::get('/product', [MovieController::class, 'search'])->name('product.search');
 
 

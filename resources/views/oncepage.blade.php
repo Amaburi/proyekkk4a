@@ -28,7 +28,7 @@
                 <span>2h 19min</span>
                 <span>Action Adventure</span>
             </h4>
-            <p>An aging Chinese immigrant is swept up in an insane adventure, where she alone can save the world by exploring other universes connecting with the lives she could have led.</p>
+            <p class="no-highlight">An aging Chinese immigrant is swept up in an insane adventure, where she alone can save the world by exploring other universes connecting with the lives she could have led.</p>
             <div class="button">
                 <a href="#"><i class="fa-solid fa-play"></i>Play</a>
                 <a href="#"><i class="fa-solid fa-plus"></i>My list</a>

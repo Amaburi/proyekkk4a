@@ -28,7 +28,7 @@
                 <span>2h 6min</span>
                 <span>Action Adventure</span>
             </h4>
-            <p>Pachinko is a period drama depicting Korean immigrant family who left their homeland. Kim Sun Ja was a woman born and raised in Busan during Japanese Colonialism. Meanwhile, Koh Hansu was a Zainichi Korean who lived in Osaka, Japan. Later, Sun Ja and Hansu met each other when Hansu visited Busan. They were in a special relationship. However, Hansu already married with children and couldn’t marry to Sun Ja who was pregnant at that time. In this frustrating situation, a church priest, Baek Isak, saved Sun Ja by marrying her. Later, Sun Ja and Isak moved to Japan. Both were struggle to survive and had to face discrimination.</p>
+            <p>Juvenile Justice follows the story of Shim Eun-seok, an elite judge with a cold and distant personality, who is known for her dislike of juveniles, as she becomes a newly appointed judge of a juvenile court in the Yeonhwa District. There, she breaks customs and administers her own ways of punishing the offenders. She has to deal with and balance her aversion to minor offenders with firm beliefs on justice and punishment as she tackles complex cases while discovering what being an adult truly means.</p>
             <div class="button">
                 <a href="#"><i class="fa-solid fa-play"></i>Play</a>
                 <a href="#"><i class="fa-solid fa-plus"></i>My list</a>

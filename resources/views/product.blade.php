@@ -34,7 +34,7 @@
          <div class="pro-container">
             @forEach($addmovie as $movie)
              <div class="pro">
-                 <h5>{{$movie->name}}</h5>
+                 <h5 class="no-highlight">{{$movie->name}}</h5>
                 <a href="{{$movie->page}}"><img src="{{ asset('images/' . $movie->image)}}" alt="" class="thumbnail"></a>
                 <div class="des">
                     <span>{{$movie->desc}}</span>

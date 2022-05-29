@@ -5,6 +5,10 @@
     box-sizing: border-box;
     font-family: 'Poppins',sans-serif;
 }
+.no-highlight{
+    -ms-user-select: none;
+    user-select: none;
+}
 body{
     background: rgb(200, 196, 196);
 }
@@ -24,6 +28,8 @@ header{
 }
 header .logo img{
     max-width: 150px;
+    -ms-user-select: none;
+    user-select: none;
 }
 .navigation{
     display: flex;
@@ -94,6 +100,8 @@ header .logo img{
     position: absolute;
     z-index: 1;
     max-width: 550px;
+    -ms-user-select: none;
+    user-select: none;
 }
 .banner .content h4{
     color:rgba(255, 255, 255,0.5);

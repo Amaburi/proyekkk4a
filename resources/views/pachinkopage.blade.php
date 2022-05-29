@@ -10,7 +10,7 @@
 </head>
 <body>
     <header>
-        <a href="latest" class="logo"><img src="{{asset('images/strangelogo.png')}}"></a>
+        <a href="latest" class="logo"><img src="{{asset('images/Logo.png')}}"></a>
     <ul class="navigation">
         <li class="nav-item">
             
@@ -28,7 +28,7 @@
                 <span>2h 6min</span>
                 <span>Action Adventure</span>
             </h4>
-            <p>Pachinko is a period drama depicting Korean immigrant family who left their homeland. Kim Sun Ja was a woman born and raised in Busan during Japanese Colonialism. Meanwhile, Koh Hansu was a Zainichi Korean who lived in Osaka, Japan. Later, Sun Ja and Hansu met each other when Hansu visited Busan. They were in a special relationship. However, Hansu already married with children and couldn’t marry to Sun Ja who was pregnant at that time. In this frustrating situation, a church priest, Baek Isak, saved Sun Ja by marrying her. Later, Sun Ja and Isak moved to Japan. Both were struggle to survive and had to face discrimination.</p>
+            <p class="no-highlight">Pachinko is a period drama depicting Korean immigrant family who left their homeland. Kim Sun Ja was a woman born and raised in Busan during Japanese Colonialism. Meanwhile, Koh Hansu was a Zainichi Korean who lived in Osaka, Japan. Later, Sun Ja and Hansu met each other when Hansu visited Busan. They were in a special relationship. However, Hansu already married with children and couldn’t marry to Sun Ja who was pregnant at that time. In this frustrating situation, a church priest, Baek Isak, saved Sun Ja by marrying her. Later, Sun Ja and Isak moved to Japan. Both were struggle to survive and had to face discrimination.</p>
             <div class="button">
                 <a href="#"><i class="fa-solid fa-play"></i>Play</a>
                 <a href="#"><i class="fa-solid fa-plus"></i>My list</a>
