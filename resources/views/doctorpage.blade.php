@@ -10,7 +10,7 @@
 </head>
 <body>
     <header>
-        <a href="latest" class="logo"><img src="{{asset('images/strangelogo.png')}}"></a>
+        <a href="product" class="logo"><img src="{{asset('images/strangelogo.png')}}"></a>
     <ul class="navigation">
         <li class="nav-item">
             

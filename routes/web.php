@@ -113,6 +113,9 @@ Route::get('heropage', function(){
 Route::get('doctorpage', function(){
     return view('doctorpage');
 });
+Route::get('obipage', function(){
+    return view('obipage');
+});
 Route::get('/product', [MovieController::class, 'search'])->name('product.search');
 
 

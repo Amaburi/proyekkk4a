@@ -19,16 +19,16 @@
     </form>
     </header>
     <div class="banner">
-        <img src="{{asset('images/hill.jpg')}}">
+        <img src="{{asset('images/obii.jpg')}}">
         <div class="content">
             
             <h4>
-                <span>2018</span>
-                <span><i>13+</i></span>
-                <span>60min per Eps</span>
-                <span>Horror Thriller Mystery</span>
+                <span>2022</span>
+                <span><i>15+</i></span>
+                <span>56min per Eps</span>
+                <span>Action Adventure</span>
             </h4>
-            <p>In the summer of 1992, Hugh and Olivia Crain and their five children—Steven, Shirley, Theodora (Theo), Luke, and Eleanor (Nell)—move into Hill House to renovate the mansion in order to sell it and build their own house, designed by Olivia. However, due to unexpected repairs, they have to stay longer, and they begin to experience increasing paranormal phenomena, resulting in a tragic loss and the family fleeing from the house. Twenty-six years later, the Crain siblings and their estranged father reunite after another tragedy strikes them, and they are forced to confront how their time in Hill House has affected each of them.</p>
+            <p class="no-highlight">Ten years after the events of Star Wars: Episode III – Revenge of the Sith (2005)—in which the Jedi were destroyed by Order 66 and his former apprentice Anakin Skywalker became the Sith Lord Darth Vader—Obi-Wan Kenobi is watching over Vader's son, Luke Skywalker, on Tatooine. Hiding on Tatooine, Kenobi lives a solitary life in exile. Darth Vader has set up the Sith Inquisitors program, a group of dark side Force users, to hunt down any Jedi who survived Order 66. Kenobi is forced out of hiding on Tatooine to embark on a mission to rescue Leia, after she is kidnapped by the Galactic Empire's Jedi-hunting Inquisitors. Kenobi will face Vader once again after their duel on Mustafar ten years prior.</p>
             <div class="button">
                 <a href="#"><i class="fa-solid fa-play"></i>Play</a>
                 <a href="#"><i class="fa-solid fa-plus"></i>My list</a>
@@ -37,7 +37,7 @@
         <a class="play" onclick="toggleVideo();"><img src="{{asset('images/play.png')}}">Watch Trailer</a>
     </div>
     <div class="trailer">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/3eqxXqJDmcY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/3Yh_6_zItPU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <img src="{{asset('images/close.png')}}" class="close" onclick="toggleVideo();">
     </div>
 
